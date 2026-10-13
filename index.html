@@ -84,8 +84,9 @@
 
   /* 경력: 회사 단위 묶음 */
   .org + .org { margin-top: 30px; }
-  .org-head { margin: 0 0 12px; }
+  .org-head { margin: 0 0 10px; }
   .org-head b { font-size: 17px; }
+  .org > .desc { margin-top: -4px; }
 
   /* 최신 논문 배지: 반짝이는 별 */
   .badge { font-family: var(--sans); font-size: 13px; font-weight: 500; color: #e8442c; margin-left: 6px; white-space: nowrap; }
@@ -184,44 +185,23 @@
 
       <div class="item">
         <div class="row"><p class="title">On-device sLM for the ixi-O AI call agent</p><span class="meta">Tech lead</span></div>
-        <p class="desc">Moved call summary and AI call answering from a cloud LLM onto the phone, serving several million subscribers. Led modeling, quantization, and inference-engine work to run an EXAONE sLM on Qualcomm and Apple NPUs at near-cloud quality within a phone&rsquo;s memory and power budget. MWC 2026 awards for ixi-Guardian.</p>
-        <p class="more"><a href="https://hsanglee.github.io/neurips-ixi-slm/">Project page</a></p>
+        <p class="desc">Brought call summary and AI call answering from the cloud onto mobile NPUs, now serving several million subscribers. <a href="https://hsanglee.github.io/neurips-ixi-slm/">Project page</a></p>
       </div>
 
       <div class="item">
         <div class="row"><p class="title">On-device AI subtitle legibility for IPTV</p><span class="meta">Project and engineering lead</span></div>
-        <p class="desc">Took a lab-stage server model to production inside existing set-top boxes&rsquo; secure zone, optimizing it for real-time inference on legacy NPUs and retraining it on in-house VOD data. The first on-device AI service on IPTV among Korea&rsquo;s three carriers (2024).</p>
-        <p class="more"><a href="http://dx.doi.org/10.7236/IJIBC.2025.17.2.24">Paper</a></p>
+        <p class="desc">The first on-device AI service on IPTV among Korea&rsquo;s three carriers, running inside existing set-top boxes. <a href="http://dx.doi.org/10.7236/IJIBC.2025.17.2.24">Paper</a></p>
       </div>
     </div>
 
     <div class="org">
       <div class="row org-head"><span><b>LG Electronics</b> <span class="meta">&nbsp;CTO, System IC Center</span></span><span class="meta">2011 – 2020</span></div>
-
-      <div class="item">
-        <div class="row"><p class="title">On-device AI chips for home appliances</p><span class="meta">2018 – 2020</span></div>
-        <p class="desc">Chip architect of the DQ-C AI MCU, co-designed with a reinforcement-learning washer model and commercialized in LG washers. Platform integration for the DQ1 AI SoC in the R9 robot vacuum.</p>
-      </div>
-
-      <div class="item">
-        <div class="row"><p class="title">HDCP on LG Interface specifications</p><span class="meta">Specification author</span></div>
-        <p class="desc">Wrote and registered LG&rsquo;s own content-protection specifications with Digital Content Protection, the HDCP licensing body: HDCP 2.2 on 1st-gen and HDCP 2.3 on 2nd-gen LG Interface. Also designed and certified the IP that implements them, first shipped in the Signature OLED TV W7 (CES 2017 Best of the Best).</p>
-        <p class="more"><a href="https://www.digital-cp.com/hdcp-specifications">Specification</a></p>
-      </div>
-
-      <div class="item">
-        <div class="row"><p class="title">High-speed interface IP for TV SoC and mobile AP</p><span class="meta">2011 – 2017</span></div>
-        <p class="desc">HDMI and DisplayPort IP across six commercialized TV and mobile chipsets, from integration and verification to compliance debugging.</p>
-      </div>
+      <p class="desc">AI chip architect for the DQ-C MCU, author of the HDCP on LG Interface specifications, and high-speed interface IP for TV and mobile SoCs.</p>
     </div>
 
     <div class="org">
       <div class="row org-head"><span><b>LG Display</b> <span class="meta">&nbsp;CTO, Color Team</span></span><span class="meta">2010 – 2011</span></div>
-
-      <div class="item">
-        <div class="row"><p class="title">Multi-primary color algorithms for LCD and OLED TV</p></div>
-        <p class="desc">RGB-to-RGBY conversion and RGBW sub-pixel rendering, patented in Korea, the US, and China.</p>
-      </div>
+      <p class="desc">Multi-primary color algorithms for LCD and OLED TV.</p>
     </div>
   </section>
 
